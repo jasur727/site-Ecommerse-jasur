@@ -268,7 +268,7 @@
 
         <div class="category-homepage__fruit-item">
           <button class="category-homepage__fruit-btn" type="button">Grid view</button>
-          
+
           <button class="category-homepage__fruit-btn categorys-list" type="button">List view</button>
 
           <div class="homepage-buttun">
@@ -278,35 +278,224 @@
         </div>
       </div>
 
-      <div class="homepage-radiobox">
-        <div class="radiobox">
-          <input class="radiobox-category" type="radio" name="radio">
-          <label class="radiobox-category__label">Filtre text</label>
+      <div class="homepage-list">
+        <div class="homepage-radiobox homepage-about">
+          <div class="radiobox">
+            <input class="radiobox-category" type="radio" name="radio">
+            <label class="radiobox-category__label">Filtre text</label>
+          </div>
+
+          <div class="radiobox black-radio">
+            <input class="radiobox-category" type="radio" name="radio">
+            <label class="radiobox-category__label">Filtre text</label>
+          </div>
         </div>
-        
-        <div class="radiobox black-radio">
-          <input class="radiobox-category" type="radio" name="radio">
-          <label class="radiobox-category__label">Filtre text</label>
+
+        <div class="homepage-checkbox homepage-about">
+          <div class="checkbox">
+            <input class="checkbox-category" type="checkbox" name="checkbox">
+            <label class="checkbox-category__label">Filtre</label>
+            <span class="checkbox-category__span">Nbm</span>
+          </div>
+
+          <div class="checkbox black-checkbox">
+            <input class="checkbox-category" type="checkbox" name="checkbox">
+            <label class="checkbox-category__label">Filtre</label>
+            <span class="checkbox-category__span">Nbm</span>
+          </div>
+        </div>
+
+        <div class="catagory-custom homepage-about">
+          <input class="catagory-custom__item" type="checkbox" name="checkbox">
+          <label class="catagory-custom__label">Filtre</label>
+          <span class="catagory-custom__span">12</span>
+
+          <select class="catagory-custom__list" name="custom">
+            <option class="category-custom" value="0">Select</option>
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Citroen</option>
+          </select>
         </div>
       </div>
 
-      <div class="homepage-radiobox">
-        <div class="radiobox">
-          <input class="radiobox-category" type="checkbox" name="checkbox">
-          <label class="radiobox-category__label">Filtre</label>
-          <span class="radiobox-category__span">Nbm</span>
+      <div class="catagory-page">
+        <p class="catagory-page__text">Applied filtres:</p>
+        <button class="catagory-page__btn" type="button">Selected Filtre
+          <img class="catagory-page__img" src="./img/catagory-x-btn.svg" alt="" width="7" height="7">
+        </button>
+
+        <button class="catagory-page__btn catagory-page__btn-two" type="button">Selected Filtre
+          <img class="catagory-page__img" src="./img/catagory-x-btn.svg" alt="" width="7" height="7">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="categories-main">
+    <div class="container">
+      <div class="categories-main__list">
+        <h2 class="categories-main__heading">Categories</h2>
+
+        <ul class="categories-main__content">
+
+          <li class="categories-main__item">
+            <p class="categories-main__text">Category name</p>
+            <span class="categories-main__span">320</span>
+          </li>
+          <li class="categories-main__item">
+            <p class="categories-main__text">Category name</p>
+            <span class="categories-main__span">112</span>
+          </li>
+          <li class="categories-main__item">
+            <p class="categories-main__text">Category name</p>
+            <span class="categories-main__span">32</span>
+          </li>
+          <li class="categories-main__item">
+            <p class="categories-main__text">Category name</p>
+            <span class="categories-main__span">48</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="categories-main__brands">
+        <h2 class="categories-main__heading brands">Brands</h2>
+
+        <ul class="categories-main__content">
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <label class="categories-main__content-label">Filtre by brand item</label>
+          </li>
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <label class="categories-main__content-label">Filtre by brand item</label>
+          </li>
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <label class="categories-main__content-label">Filtre by brand item</label>
+          </li>
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <label class="categories-main__content-label">Filtre by brand item</label>
+          </li>
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <label class="categories-main__content-label">Filtre by brand item</label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="categories-main__brands">
+        <h2 class="categories-main__heading brands">Rating</h2>
+
+        <ul class="categories-main__content">
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <img class="categories-main__stars" src='./img/five-stars-yellow.svg' alt="" width="88" height="16">
+          </li>
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <img class="categories-main__stars" src='./img/four-stars-yellow.png' alt="" width="88" height="16">
+          </li>
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <img class="categories-main__stars" src='./img/three-stars-yellow.svg' alt="" width="88" height="16">
+          </li>
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <img class="categories-main__stars" src='./img/two-stars-yellow.svg' alt="" width="88" height="16">
+          </li>
+
+          <li class="categories-main__content-item">
+            <input class="categories-main__content-input" type="checkbox" name="categories-checkbox">
+            <img class="categories-main__stars" src='./img/one-stars-yellow.svg' alt="" width="88" height="16">
+          </li>
+        </ul>
+      </div>
+
+      <div class="categories-main__brands">
+        <h2 class="categories-main__heading price-heading">Price</h2>
+
+        <div class="categories-main__price">
+          <div class="price-content">
+            <button class="price-content__btn price-content__left" type="button"></button>
+            <button class="price-content__btn price-content__right" type="button"></button>
+          </div>
         </div>
 
-        <div class="radiobox black-radio">
-          <input class="radiobox-category" type="checkbox" name="checkbox">
-          <label class="radiobox-category__label">Filtre</label>
-          <span class="radiobox-category__span">Nbm</span>
+        <div class="price-content__down-content">
+          
+          <form class="price-content__down-form" action="https://echo.htmlacademy.ru" method="POST">
+            <label class="price-content__down-min">Min</label>
+            
+            <div class="price-content__form">
+              <input class="price-content__down-nomer" type="number" placeholder="0">
+            </div>
+          </form>
+          
+          <form class="price-content__down-form form-two" action="https://echo.htmlacademy.ru" method="POST">
+            <label class="price-content__down-min">Max</label>
+
+            <div class="price-content__form">
+              <input class="price-content__down-nomer" type="number" placeholder="000">
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
 
-  <footer class="site-footer">  
+  <div class="categories-main__wrapper">
+    <div class="container">
+      <div class="categories-main__wrapper-list">
+
+        <ul class="categories-main__wrapper-content">
+          <li class="categories-main__wrapper-item">
+            <img class="categories-main__wrapper-img" src="./img/osh.jpg" alt="" width="268" height="280">
+
+            <div class="">
+              <h2 class="">Product title</h2>
+              <p class="">Space for a small product description </p>
+              <img class="" src="./img/black-star.svg" alt="" width="108" height="20">
+              
+              <div class="">
+                <dt class="">Fresheness</dt>
+                <dd class="">
+                  <span class="">New</span> 
+                  (Extra fresh)</dd>
+              </div>
+              
+              <div class="">
+                <dt class="">Farm</dt>
+                <dd class="">Grocery Tarm Fields</dd>
+              </div>
+              
+              <div class="">
+                <dt class="">Delivery</dt>
+                <dd class="">Europe</dd>
+              </div>
+              
+              <div class="">
+                <dt class="">Stock</dt>
+                <dd class="">320 pcs</dd>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
     <section>
       <div class="container">
         <div class="site-footer__top">
