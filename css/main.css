@@ -2446,6 +2446,9 @@ img {
     width: 50%;
     text-align: left;
   }
+  .site-footer__top-content:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 375px) {

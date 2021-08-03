@@ -50,6 +50,10 @@
   .site-footer__top-content {
     width: 50%;
     text-align: left;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
   }
 }
 
