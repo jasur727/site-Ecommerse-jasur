@@ -1,62 +1,115 @@
-.vegitable-list{
+.vegitable-list {
   @include list-unstyled;
 }
 
-.vegitable-item{
+.vegitable-item {
   display: flex;
+  margin-left: 25px;
 
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-bottom: 32px;
   }
 }
 
-.vegitable-item__title{
-  font-family: "Poppins";
-  width: 225px;
+.vegitable-item__one {
+  display: none;
+}
+
+.vegitable-item__title {
+  font-family: 'Poppins', Arial, sans-serif;
   @include title-unstyled;
   font-weight: 500;
+  max-width: 375px;
   font-size: 15px;
   line-height: 22px;
   color: #151515;
   margin-bottom: 16px;
 
-  &:hover{
+  &:hover {
     cursor: pointer;
   }
 }
 
-.vrgitable-item__author{
+.vrgitable-item__author {
   font-size: 12px;
   line-height: 16px;
   color: #151515;
 }
 
-.vegitable-item__time{
+.vegitable-item__time {
   font-size: 12px;
   line-height: 16px;
   color: #151515;
 }
 
-.vegitable-item__img{
-  margin-left: 48px;
+.vegitable-item__img {
+  margin-left: 99px;
+  width: 196px;
 }
 
-@media only screen and (max-width: 1150px) {
-  .vegitable-list{
-    margin-right: auto;
-    margin-left: auto;
+@media only screen and (max-width: 1176px) {
+
+  .blog-vegitable__item {
+    display: block;
+  }
+
+  .vegitable-item__img {
+    margin-left: 99px;
+    width: 196px;
   }
 }
 
 @media only screen and (max-width: 805px) {
-  .vegitable-item__title{
-    width: 100%;
+  .vegitable-item__title {
+    max-width: 400px;
     margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  .vegitable-item__one {
+    display: block;
+  }
+
+  .vegitable-item {
+    display: flex;
+    margin: 0;
+
+    &:not(:last-child) {
+      margin-bottom: 32px;
+      margin-left: 0px;
+    }
+  }
+
+  .vrgitable-item__author {
+    font-size: 18px;
+  }
+
+  .vegitable-item__img {
+    margin-left: 48px;
+    width: 98px;
   }
 }
 
 @media only screen and (max-width: 380px) {
-  .vegitable-item__img{
-    margin-left: 15px;
+  .vegitable-item__title {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 17px;
+  }
+
+  .vegitable-item__img {
+    margin-left: 0px;
+    width: 308px;
+  }
+
+  .vegitable-item {
+    display: flex;
+    flex-direction: column-reverse;
+
+    &:not(:last-child) {
+      margin-bottom: 32px;
+      margin-left: 0px;
+    }
   }
 }

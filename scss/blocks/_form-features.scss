@@ -29,7 +29,7 @@
 
 .form-wrapper__list{
   @include list-unstyled;
-  text-align: center;
+  text-align: left;
   padding-top: 15px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .form-wrapper__link{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;

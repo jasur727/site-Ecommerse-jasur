@@ -9,7 +9,7 @@
 }
 
 .wrapper-text{
-  font-family: "Poppins";
+  font-family: 'Poppins', Arial, sans-serif;
   @include title-unstyled;
   font-weight: 600;
   font-size: 18px;
@@ -37,14 +37,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: 13px;
   }
 }
 
 .blog-wrapper {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .blog-wrapper__chef {
@@ -55,6 +53,7 @@
   background-position: center;
   background-size: cover;
   padding: 24px 65px 24px 24px;
+  margin-right: 15px;
 }
 
 .blog-wrapper__span {
@@ -70,7 +69,7 @@
 }
 
 .blog-wrapper__title {
-  font-family: "Poppins";
+  font-family: 'Poppins', Arial, sans-serif;
   @include title-unstyled;
   font-weight: 600;
   font-size: 22px;
@@ -110,7 +109,7 @@
 
 @media only screen and (max-width: 1150px) {
   .blog-wrapper__chef {
-    width: 100%;
+    width: 536px;
     margin-bottom: 50px;
   }
 

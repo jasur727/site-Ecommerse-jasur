@@ -12,7 +12,6 @@
 
 .prodact-list {
   display: flex;
-  // margin-left: 33px;
 }
 
 .prodact-content__title {
@@ -40,7 +39,7 @@
 }
 
 .prodact-content__item {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .prodact-content__link {
@@ -109,6 +108,11 @@
 
   .prodact-content__link {
     font-size: 18px;
+    margin-right: 15px;
+
+    &:not(:last-child) {
+      margin-bottom:13px;
+    }
   }
 
   .prodact-content__button {
@@ -148,7 +152,7 @@
 
   .prodact-content__item {
     &:not(:last-child) {
-      margin-bottom: 15px;
+      margin-bottom: 25px;
     }
   }
 

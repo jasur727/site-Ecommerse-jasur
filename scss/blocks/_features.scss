@@ -54,6 +54,7 @@
 
   &:not(:last-child) {
     margin-right: 54px;
+    margin-bottom: 20px;
   }
 }
 
@@ -61,7 +62,7 @@
   @include list-unstyled;
   position: absolute;
   width: 100px;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   background-color: #8eca53;
   color: #ffffff;

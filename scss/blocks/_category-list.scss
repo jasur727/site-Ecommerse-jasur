@@ -4,7 +4,7 @@
 }
 
 .category-item:not(:last-child){
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .category-link{
@@ -16,6 +16,10 @@
   &:hover{
     opacity: 0.7;
   }
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -25,6 +29,7 @@
 
   .category-link{
     font-size: 17px;
+    margin-right: 15px;
     
     &:hover{
       opacity: 0.7;
