@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./scss/main.scss">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="site-nav">
+      <div class="site-nav__content--wrapper">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a class="site-nav__link link-green" href="#">
+              Chat with us
+            </a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link link-black" href="tel:+420336775664">
+              +420 336 775 664
+            </a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link link-black" href="#">
+              info@freshnesecom.com
+            </a>
+          </li>
+        </ul>
+
+        <ul class="site-nav__second-list">
+          <li class="second-list__item">
+            <a class="second-list__link link-green" href="#">
+              Blog
+            </a>
+          </li>
+          <li class="second-list__item">
+            <a class="second-list__link link-green" href="#">
+              About Us
+            </a>
+          </li>
+          <li class="second-list__item">
+            <a class="second-list__link link-green" href="./category.html">
+              Careers
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr class="site-nav__hr">
+    </nav>
+  </div>
+  <main class="site-main">
+
+    <div class="forms">
+      <div class="container">
+        <div class="form-wrapper">
+
+          <a class="site-logo" href="#">
+            <img class="form-wrapper__logo" src="./img/freshnesecom.svg" alt="" width="177" height="48">
+          </a>
+
+          <div class="form-wrapper-content">
+            <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+              <div class="custom">
+                <select class="custom-select" name="custom">
+                  <option value="0">All categories</option>
+                  <option value="1">Audi</option>
+                  <option value="2">BMW</option>
+                  <option value="3">Citroen</option>
+                </select>
+              </div>
+              <input class="search-form" type="search" name="search" placeholder="Search Products, categories ...">
+            </form>
+
+            <a class="search-logo" href="#">
+              <img class="search-img" src="./img/icon-search.svg" alt="" width="16" height="16">
+            </a>
+          </div>
+
+          <button class="form-wrapper__button" type="button">
+            <img class="form-wrapper__button-img" src="./img/icon-search.svg" alt="" width="25" height="25">
+          </button>
+
+          <div class="button">
+            <a class="button-people" href="#">
+              <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 22l.8-2.9c2.6-9.5 13.8-9.5 16.4 0L21 22" stroke="#151515" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 12a5 5 0 100-10 5 5 0 000 10z" stroke="#151515" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="bevel" />
+              </svg>
+            </a>
+
+            <a class="button-karzinka" href="#">
+              <svg width="24" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.9 19.8H6a1.4 1.4 0 01-1.4-1L2.1 8.2a.7.7 0 01.7-1h18.4a.7.7 0 01.7 1l-2.6 10.6a1.4 1.4 0 01-1.4 1v0zM9.8 2.1L6.9 7.3M13.9 2.1l2.9 5.2"
+                  stroke="#151515" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+
+          <button class="form-wrapper__toggler"></button>
+
+          <div class="form-wrapper__features">
+
+            <ul class="form-wrapper__list">
+              <li class="form-wrapper__item">
+                <a class="form-wrapper__link" href="#">
+                  Bakery
+                </a>
+              </li>
+
+              <li class="form-wrapper__item">
+                <a class="form-wrapper__link" href="#">
+                  Fruit and vegetables
+                </a>
+              </li>
+
+              <li class="form-wrapper__item">
+                <a class="form-wrapper__link" href="#">
+                  Meat and fish
+                </a>
+              </li>
+
+              <li class="form-wrapper__item">
+                <a class="form-wrapper__link" href="#">
+                  Drinks
+                </a>
+              </li>
+
+              <li class="form-wrapper__item">
+                <a class="form-wrapper__link" href="#">
+                  Kitchen
+                </a>
+              </li>
+
+              <li class="form-wrapper__item">
+                <a class="form-wrapper__link" href="#">
+                  Special nutrition
+                </a>
+              </li>
+
+              <li class="form-wrapper__item">
+                <a class="form-wrapper__link" href="#">
+                  Baby
+                </a>
+              </li>
+
+              <li class="form-wrapper__item">
+                <a class="form-wrapper__link" href="#">
+                  Pharmacy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="features">
+      <div class="container">
+        <div class="features-content__wrapper">
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-item__title">
+                Bakery
+              </h3>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">test 1</li>
+                <li class="drop-down__item">test 2</li>
+                <li class="drop-down__item">test 3</li>
+              </ul>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item__title">
+                Fruit and vegetables
+              </h3>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">test 1</li>
+                <li class="drop-down__item">test 2</li>
+                <li class="drop-down__item">test 3</li>
+              </ul>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item__title">
+                Meat and fish
+              </h3>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">test 1</li>
+                <li class="drop-down__item">test 2</li>
+                <li class="drop-down__item">test 3</li>
+              </ul>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item__title">
+                Drinks
+              </h3>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">test 1</li>
+                <li class="drop-down__item">test 2</li>
+                <li class="drop-down__item">test 3</li>
+              </ul>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item__title">
+                Kitchen
+              </h3>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">test 1</li>
+                <li class="drop-down__item">test 2</li>
+                <li class="drop-down__item">test 3</li>
+              </ul>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item__title">
+                Special nutrition
+              </h3>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">test 1</li>
+                <li class="drop-down__item">test 2</li>
+                <li class="drop-down__item">test 3</li>
+              </ul>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item__title">
+                Baby
+              </h3>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">test 1</li>
+                <li class="drop-down__item">test 2</li>
+                <li class="drop-down__item">test 3</li>
+              </ul>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item__title">
+                Pharmacy
+              </h3>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">test 1</li>
+                <li class="drop-down__item">test 2</li>
+                <li class="drop-down__item">test 3</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="category-homepage__list">
+    <div class="container">
+      <div class="category-homepage">
+        <p class="category-homepage__text homepage">Homepage</p>
+        <p class="category-homepage__text">Fruit and vegetables</p>
+      </div>
+
+      <div class="category-homepage__fruit">
+        <h2 class="category-homepage__fruit-title">Fruit and vegetables</h2>
+
+        <div class="category-homepage__fruit-item">
+          <button class="category-homepage__fruit-btn" type="button">Grid view</button>
+          
+          <button class="category-homepage__fruit-btn categorys-list" type="button">List view</button>
+
+          <div class="homepage-buttun">
+            <span class="homepage-buttun__span">117</span>
+            <p class="homepage-buttun__text">Products</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="homepage-radiobox">
+        <div class="radiobox">
+          <input class="radiobox-category" type="radio" name="radio">
+          <label class="radiobox-category__label">Filtre text</label>
+        </div>
+        
+        <div class="radiobox black-radio">
+          <input class="radiobox-category" type="radio" name="radio">
+          <label class="radiobox-category__label">Filtre text</label>
+        </div>
+      </div>
+
+      <div class="homepage-radiobox">
+        <div class="radiobox">
+          <input class="radiobox-category" type="checkbox" name="checkbox">
+          <label class="radiobox-category__label">Filtre</label>
+          <span class="radiobox-category__span">Nbm</span>
+        </div>
+
+        <div class="radiobox black-radio">
+          <input class="radiobox-category" type="checkbox" name="checkbox">
+          <label class="radiobox-category__label">Filtre</label>
+          <span class="radiobox-category__span">Nbm</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">  
+    <section>
+      <div class="container">
+        <div class="site-footer__top">
+
+          <div class="site-footer__top-content">
+            <h2 class="site-footer__top-title">Get in touch</h2>
+            <ul class="site-footer__top-list">
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  About Us
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Careers
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Press Releases
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="site-footer__top-content">
+            <h2 class="site-footer__top-title">Connections</h2>
+            <ul class="site-footer__top-list">
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Facebook
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Twitter
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Instagram
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Youtube
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="site-footer__top-content">
+            <h2 class="site-footer__top-title">Earnings</h2>
+            <ul class="site-footer__top-list">
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Become an Affiliate
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Become an Affiliate
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Sell on Market
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="site-footer__top-content">
+            <h2 class="site-footer__top-title">Account</h2>
+            <ul class="site-footer__top-list">
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Your account
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Returns Centre
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  100 % purchase protection
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Chat with us
+                </a>
+              </li>
+              <li class="site-footer__top-item">
+                <a class="site-footer__top-link" href="#">
+                  Help
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <h1 class="visually-hidden">Product tags</h1>
+        <h2 class="products-title">Product tags</h2>
+
+        <ul class="products-list">
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Beans
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Carrots
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Apples
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Garlic
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Mushrooms
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Tomatoes
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Chilli peppers
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Broccoli
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Watermelons
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Oranges
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Bananas
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Grapes
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Cherries
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Meat
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Seo tag
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Fish
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Seo tag
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Fresh food
+            </a>
+          </li>
+
+          <li class="products-item">
+            <a href="#" class="products-link">
+              Lemons
+            </a>
+          </li>
+        </ul>
+
+        <div class="copyright-link__wrapper">
+          <a class="copyright-link" href="#">Copyright © 2020 petrbilek.com</a>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.custom-select {
+  min-width: 88px;
+  position: relative;
+  font-family: 'Open Sans', Arial, sans-serif;
+  border: none;
+  background-color: #F9F9F9;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.select-selected {
+  background-color: rgb(62, 231, 243);
+}

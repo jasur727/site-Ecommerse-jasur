@@ -1,0 +1,238 @@
+.card-footer {
+  margin-top: 65px;
+}
+
+.card-features__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.card-footer__up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.card-footer__up-heading {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+
+.card-footer__up-btn {
+  border: none;
+  background-color: transparent;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &::after{
+    content: "";
+    display: block;
+    width: 7px;
+    height: 10px;
+    background-image: url(../../img/icon-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 13px;
+  }
+}
+
+.card-features {
+  max-width: 245px;
+  padding: 16px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.card-features__img {
+  border-radius: 10px;
+}
+
+.card-features__foiz {
+  margin: 0;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 20px;
+  color: #46760A;
+  border: 1px solid transparent;
+  padding: 0 8px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.card-features__heading {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 0;
+  color: #151515;
+  margin-top: 16px;
+}
+
+.card-features__text {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+  margin-bottom: 22px;
+}
+
+.card-features__span {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+  white-space: nowrap;
+}
+
+.card-features__btn {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background-color: #46760A;
+  border: 1px solid #46760A;
+  border-radius: 12px;
+  margin-left: auto;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+  &:hover {
+    color: #46760A;
+    background-color: #fff;
+    border: 1px solid #46760A;
+  }
+}
+
+.card-features__down {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1110px) {
+
+  .card-features {
+    max-width: 219px;
+
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+
+  .card-footer__up-btn {
+    margin: 0;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .card-footer {
+    margin: 0;
+    margin-top: 55px;
+  }
+
+  .card-features {
+    max-width: 180px;
+
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+
+  .card-features__img {
+    width: 160px;
+    height: 90px;
+  }
+
+  .card-features__btn {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: auto;
+  }
+
+  .card-features__span {
+    font-size: 15px;
+  }
+
+  .card-features__down {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .card-features {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 323px;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .card-features__img {
+    width: 439px;
+    height: 242px;
+  }
+
+  .card-features__btn {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 678px) {
+
+  .card-features {
+    max-width: 800px;
+  }
+
+  .card-features__img {
+    width: 574px;
+    height: 284px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+
+  .card-features {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .card-features__img {
+    width: 275px;
+    height: 195px;
+  }
+}
