@@ -53,9 +53,18 @@
     display: block;
   }
 
+  .vegitable-item__one {
+    display: block;
+    display: flex;
+  }
+
+  .blog-vegitable__span {
+    display: none;
+  }
+
   .vegitable-item__img {
     margin-left: 99px;
-    width: 196px;
+    width: 116px;
   }
 }
 
@@ -85,9 +94,12 @@
   }
 
   .vegitable-item__img {
-    margin-left: 48px;
-    width: 98px;
+    width: 128px;
   }
+}
+
+@media only screen and (max-width: 500px) {
+
 }
 
 @media only screen and (max-width: 380px) {

@@ -84,11 +84,7 @@
               <img class="search-img" src="./img/icon-search.svg" alt="" width="16" height="16">
             </a>
           </div>
-
-          <button class="form-wrapper__button" type="button">
-            <img class="form-wrapper__button-img" src="./img/icon-search.svg" alt="" width="25" height="25">
-          </button>
-
+          
           <div class="button">
             <a class="button-people" href="#">
               <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -161,6 +157,26 @@
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+        
+        <div class="form-content">
+          <div class="form-content__list">
+            <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+              <div class="form-content__custom">
+                <select class="form-content__custom-select" name="custom">
+                  <option value="0">All categories</option>
+                  <option value="1">Audi</option>
+                  <option value="2">BMW</option>
+                  <option value="3">Citroen</option>
+                </select>
+              </div>
+              <input class="form-content__search-form" type="search" name="search" placeholder="Search Products, categories ...">
+            </form>
+
+            <a class="form-content__search-logo" href="#">
+              <img class="form-content__search-img" src="./img/icon-search.svg" alt="" width="16" height="16">
+            </a>
           </div>
         </div>
       </div>
@@ -473,25 +489,25 @@
               <img class="categories-card__content-img" src="./img/black-star.svg" alt="" width="108" height="20">
               
               <div class="categories-card__content-list">
-                <dt class="categories-card__content-dt">Fresheness</dt>
-                <dd class="categories-card__content-dd">
+                <dt class="categories-card__content-item">Fresheness</dt>
+                <dd class="categories-card__content-text">
                   <span class="categories-card__content-span">New</span> 
                   (Extra fresh)</dd>
               </div>
               
               <div class="categories-card__content-list">
-                <dt class="categories-card__content-dt">Farm</dt>
-                <dd class="categories-card__content-dd">Grocery Tarm Fields</dd>
+                <dl class="categories-card__content-item">Farm</dl>
+                <dt class="categories-card__content-text">Grocery Tarm Fields</dt>
               </div>
               
               <div class="categories-card__content-list">
-                <dt class="categories-card__content-dt">Delivery</dt>
-                <dd class="categories-card__content-dd">Europe</dd>
+                <dl class="categories-card__content-item">Delivery</dl>
+                <dt class="categories-card__content-text">Europe</dt>
               </div>
               
               <div class="categories-card__content-list">
-                <dt class="categories-card__content-dt">Stock</dt>
-                <dd class="categories-card__content-nomer">320 pcs</dd>
+                <dl class="categories-card__content-item">Stock</dl>
+                <dt class="categories-card__content-nomer">320 pcs</dt>
               </div>
             </div>
 

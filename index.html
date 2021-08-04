@@ -68,26 +68,24 @@
           </a>
 
           <div class="form-wrapper-content">
-            <form class="form" action="https://echo.htmlacademy.ru" method="POST">
-              <div class="custom">
-                <select class="custom-select" name="custom">
-                  <option value="0">All categories</option>
-                  <option value="1">Audi</option>
-                  <option value="2">BMW</option>
-                  <option value="3">Citroen</option>
-                </select>
-              </div>
-              <input class="search-form" type="search" name="search" placeholder="Search Products, categories ...">
-            </form>
-
-            <a class="search-logo" href="#">
-              <img class="search-img" src="./img/icon-search.svg" alt="" width="16" height="16">
-            </a>
+            <!-- <div class="form-wrapper__list"> -->
+              <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+                <div class="custom">
+                  <select class="custom-select" name="custom">
+                    <option value="0">All categories</option>
+                    <option value="1">Audi</option>
+                    <option value="2">BMW</option>
+                    <option value="3">Citroen</option>
+                  </select>
+                </div>
+                <input class="search-form" type="search" name="search" placeholder="Search Products, categories ...">
+              </form>
+  
+              <a class="search-logo" href="#">
+                <img class="search-img" src="./img/icon-search.svg" alt="" width="16" height="16">
+              </a>
+            <!-- </div> -->
           </div>
-
-          <button class="form-wrapper__button" type="button">
-            <img class="form-wrapper__button-img" src="./img/icon-search.svg" alt="" width="25" height="25">
-          </button>
 
           <div class="button">
             <a class="button-people" href="#">
@@ -103,15 +101,13 @@
               <svg width="24" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M17.9 19.8H6a1.4 1.4 0 01-1.4-1L2.1 8.2a.7.7 0 01.7-1h18.4a.7.7 0 01.7 1l-2.6 10.6a1.4 1.4 0 01-1.4 1v0zM9.8 2.1L6.9 7.3M13.9 2.1l2.9 5.2"
-                  stroke="#151515" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                  stroke="#151515" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </a>
           </div>
-
           <button class="form-wrapper__toggler"></button>
 
           <div class="form-wrapper__features">
-
             <ul class="form-wrapper__list">
               <li class="form-wrapper__item">
                 <a class="form-wrapper__link" href="#">
@@ -161,6 +157,26 @@
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div class="form-content">
+          <div class="form-content__list">
+            <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+              <div class="form-content__custom">
+                <select class="form-content__custom-select" name="custom">
+                  <option value="0">All categories</option>
+                  <option value="1">Audi</option>
+                  <option value="2">BMW</option>
+                  <option value="3">Citroen</option>
+                </select>
+              </div>
+              <input class="form-content__search-form" type="search" name="search" placeholder="Search Products, categories ...">
+            </form>
+
+            <a class="form-content__search-logo" href="#">
+              <img class="form-content__search-img" src="./img/icon-search.svg" alt="" width="16" height="16">
+            </a>
           </div>
         </div>
       </div>
@@ -649,7 +665,7 @@
             <div class="vegitable-item__wrapper">
               <h4 class="vegitable-item__title">Salat is kinda good start to your morning routines</h4>
               <span class="vrgitable-item__author">Author
-                <time class="vegitable-item__time" datetime="2020-06-17">14.1.2020</time>
+                <time class ="vegitable-item__time" datetime="2020-06-17">14.1.2020</time>
               </span>
             </div>
             <img class="vegitable-item__img" src="./img/bg-img.jpg" alt="picture fruits" width="96" height="96">
@@ -905,8 +921,7 @@
       </div>
     </div>
   </footer>
-
-  <script src="js/main.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

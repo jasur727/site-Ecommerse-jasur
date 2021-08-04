@@ -33,7 +33,6 @@
 .features-item {
   position: relative;
   transition: opacity 0.3s ease;
-  margin-bottom: 10px;
 
   &:hover {
     cursor: pointer;
@@ -54,7 +53,8 @@
 
   &:not(:last-child) {
     margin-right: 54px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 

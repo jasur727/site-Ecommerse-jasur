@@ -8,7 +8,7 @@
   margin-bottom: 36px;
 }
 
-.wrapper-text{
+.wrapper-text {
   font-family: 'Poppins', Arial, sans-serif;
   @include title-unstyled;
   font-weight: 600;
@@ -28,7 +28,7 @@
   display: flex;
   align-items: center;
 
-  &::after{
+  &::after {
     content: "";
     display: block;
     width: 10px;
@@ -114,7 +114,15 @@
   }
 
   .blog-wrapper__title {
+    font-family: 'Poppins', Arial, sans-serif;
+    @include title-unstyled;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
     width: 100%;
+    padding-top: 188px;
+    margin-bottom: 8px;
   }
 }
 
