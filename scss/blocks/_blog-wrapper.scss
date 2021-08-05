@@ -56,6 +56,12 @@
   margin-right: 15px;
 }
 
+.blog-wrapper__comtent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 228px;
+}
+
 .blog-wrapper__span {
   font-family: "Poppins";
   font-weight: 600;
@@ -76,7 +82,7 @@
   line-height: 33px;
   color: #FFFFFF;
   width: 380px;
-  padding-top: 228px;
+  // padding-top: 228px;
   margin-bottom: 8px;
 }
 
@@ -121,8 +127,11 @@
     line-height: 33px;
     color: #FFFFFF;
     width: 100%;
-    padding-top: 188px;
     margin-bottom: 8px;
+  }
+
+  .blog-wrapper__comtent {
+    margin-top: 183px;
   }
 }
 

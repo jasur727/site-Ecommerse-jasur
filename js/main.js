@@ -6,5 +6,3 @@ if( elSiteFormToggle){
     elSiteFormSection.classList.toggle("form-open");
   });
 }
-
-// ----------------------------
