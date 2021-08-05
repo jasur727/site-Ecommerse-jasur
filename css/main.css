@@ -3693,4 +3693,31 @@ img {
   color: #A9A9A9;
   margin-left: 8px;
 }
+
+.stars-display__inner {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  z-index: 1;
+}
+
+.stars-display__empty,
+.stars-display__full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stars-display__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars-display__full {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
 /*# sourceMappingURL=main.css.map */

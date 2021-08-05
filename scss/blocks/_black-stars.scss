@@ -1,0 +1,22 @@
+.stars-display__inner {
+  display: inline-flex;
+  position: relative;
+  z-index: 1;
+}
+
+.stars-display__empty,
+.stars-display__full {
+  display: flex;
+}
+
+.stars-display__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars-display__full {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
