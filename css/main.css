@@ -3638,6 +3638,7 @@ img {
   font-size: 12px;
   line-height: 16px;
   color: #151515;
+  cursor: pointer;
 }
 
 .one:not(:last-child) {
@@ -3658,6 +3659,7 @@ img {
   background: #6A983C;
   border: 2px solid #46760A;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .footer-top__wrapper-img {
