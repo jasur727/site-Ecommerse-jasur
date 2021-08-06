@@ -59,6 +59,7 @@
 .categories-main__content-item {
   display: flex;
   align-items: center;
+  width: 100%;
 
   &:not(:last-child) {
     margin-bottom: 17px;
@@ -78,6 +79,9 @@
   font-size: 14px;
   line-height: 19px;
   color: #151515;
+  display: flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
 }
 
 /*Categories-main__brands*/
