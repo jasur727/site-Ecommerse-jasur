@@ -605,6 +605,7 @@ img {
   margin: 0;
   list-style: none;
   position: absolute;
+  z-index: 1;
   width: 100px;
   text-align: left;
   white-space: nowrap;

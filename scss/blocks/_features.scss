@@ -61,6 +61,7 @@
 .drop-down__list {
   @include list-unstyled;
   position: absolute;
+  z-index: 1;
   width: 100px;
   text-align: left;
   white-space: nowrap;
