@@ -11,6 +11,10 @@
   color: #151515;
 }
 
+.categories-main__wrapper-one {
+  margin-right: 30px;
+}
+
 .categories-main__content {
   padding: 0;
   margin: 0;
@@ -208,4 +212,22 @@
   border: none;
   cursor: pointer;
   margin-left: 46px;
+}
+
+/* grid korinishi*/
+
+.categories-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+@media only screen and (max-width: 1100px){
+  .categories-main__wrapper-one {
+    display: none;
+  }
+
+  .categories-main__wrapper-item {
+    margin-left: 0;
+  }
 }
