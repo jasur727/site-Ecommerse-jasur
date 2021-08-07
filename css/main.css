@@ -4142,12 +4142,12 @@ img {
   display: none;
   position: fixed;
   z-index: 99;
-  top: 50px;
+  top: 10px;
   left: 35%;
   right: 50%;
   width: 410px;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
   background-color: #f1f1f1;
 }
 
