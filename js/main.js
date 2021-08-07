@@ -44,3 +44,20 @@ if(elCategoriesMainListBtn && elCategoriesMainGridBtn) {
   addListClass();
   addGridClass();
 }
+
+
+/*MODAL*/
+
+var elModalOpen = document.querySelector('.body');
+var elModalClose = document.querySelector('.button-karzinka');
+var elCloseModal = document.querySelector('.modal__button');
+
+if(elModalClose){
+  elModalClose.addEventListener("click", function(){
+    elModalOpen.classList.add("modal--open");
+  });
+
+  elCloseModal.addEventListener("click", function(){
+    elModalOpen.classList.remove("modal--open");
+  });
+}
