@@ -68,7 +68,7 @@
     width: 16px;
     height: 16px;
     background-repeat: no-repeat;
-    background-image: url('../../img/catogory-kubik.svg');
+    background-image: url('../../img/filter-grid.svg');
     margin-right: 5px;
   }
 }
@@ -77,7 +77,7 @@
   color: #A9A9A9;
 
   &::before {
-    background-image: url('../../img/ic-layout-sections.svg');
+    background-image: url('../../img/fiter-list.svg');
   }
 }
 
@@ -121,21 +121,22 @@
 .homepage-radiobox {
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
   border: 1px solid transparent;
-  max-width: 236px;
+  max-width: 240px;
   padding: 11px 15px;
   background: #F9F9F9;
-  box-sizing: border-box;
   border-radius: 12px;
 }
 
 .radiobox {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .black-radio {
-  margin-left: 17px;
+  margin-right: 17px;
 }
 
 .radiobox-category {
@@ -154,6 +155,9 @@
 }
 
 .radiobox-category__label {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
   white-space: nowrap;
 }
 
@@ -167,6 +171,7 @@
 
 .homepage-checkbox {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .checkbox {
@@ -174,19 +179,21 @@
   border: 1px solid transparent;
   padding: 11px 18px;
   background-color: #F9F9F9;
-  box-sizing: border-box;
+  display: flex;  
   border-radius: 12px;
   white-space: nowrap;
   margin-left: 16px;
 }
 
 .black-checkbox {
-  margin-left: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .checkbox-category {
   width: 15px;
   height: 15px;
+  margin-right: 7px;
 }
 
 .checkbox-category__label {
@@ -195,7 +202,10 @@
   font-size: 14px;
   line-height: 19px;
   color: #151515;
-  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  cursor: pointer;
 }
 
 .checkbox-category__span {
@@ -207,6 +217,7 @@
   border: 1px solid #D1D1D1;
   padding: 0 8px;
   border-radius: 12px;
+  margin-left: 12px;
 }
 
 .category-custom {
@@ -223,7 +234,8 @@
   padding: 11px 18px;
   background: #F9F9F9;
   border: 1px solid transparent;
-  box-sizing: border-box;
+  display: flex;
+  align-items: center;
   border-radius: 12px;
   margin-left: 16px;
 }
@@ -231,6 +243,13 @@
 .catagory-custom__item {
   width: 15px;
   height: 15px;
+  margin-right: 12px; 
+}
+
+.catagory-custom__label {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 .catagory-custom__span {
@@ -320,7 +339,7 @@
   }
 
   .black-checkbox {
-    margin-left: 16px;
+    margin-left: 0px;
   }
 }
 

@@ -1,9 +1,9 @@
-.form{
+.form {
   position: relative;
   display: flex;
 }
 
-.form-wrapper__toggler{
+.form-wrapper__toggler {
   display: none;
   border: none;
   width: 25px;
@@ -15,7 +15,7 @@
   background-size: contain;
 }
 
-.form-wrapper__features{
+.form-wrapper__features {
   display: none;
   position: absolute;
   z-index: 10;
@@ -27,17 +27,17 @@
   padding: 20px
 }
 
-.form-wrapper__list{
+.form-wrapper__list {
   @include list-unstyled;
   text-align: left;
   padding-top: 15px;
 }
 
-.form-wrapper__item:not(:last-child){
+.form-wrapper__item:not(:last-child) {
   margin-bottom: 22px;
 }
 
-.form-wrapper__link{
+.form-wrapper__link {
   font-family: 'Poppins', Arial, sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -46,27 +46,31 @@
   text-decoration: none;
   transition: opacity 0.2s ease;
 
-  &:hover{
+  &:hover {
     opacity: 0.7;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .form-wrapper__toggler{
+  .form-wrapper__toggler {
     display: block;
     margin-left: 20px;
     flex-shrink: 0;
   }
 
-  .form-open .form-wrapper__toggler{
+  .form-open .form-wrapper__toggler {
     width: 25px;
     height: 25px;
     background-image: url(../../img/icon-close.png);
   }
-
+  
   .form-open .form-wrapper__features{
     display: block;
-    margin-top: -55px;
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .form-open .form-wrapper__features{
+    margin-top: -55px;
+  }
+}
